@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head>
+<!-- Gjør så vi kan bruk æøå -->
+<meta charset="utf-8">
+<br>
+<br>
+<br>
+  <title>Programeringsspråk</title>
+  <link rel="stylesheet" href="designkode.css">
+</head>
+
+<body>
+<script>
+function myFunction()
+{
+alert("Denne siden er under konstruksjon!");
+}
+</script>
+
+
+<!-- Site navigation menu -->
+<ul class="navbar"> 
+  <li><a href="designkode.html">Hjem</a>
+  <li><label onclick="myFunction()"/> <a href="designkode.html">Kronologisk</a> 
+  <li> <label onclick="myFunction()"/> <a href="designkode.html">Hierarkisk</a>
+  <li><label onclick="myFunction()"/> <a href="designkode.html">Alfabetisk</a>
+</ul>
+
+<!-- Main content -->
+<h1>Programmeringsspråk - hva er det?</h1>
+
+<span id="outputbox">Velkommen til en mystisk verden av programmeringsspråk!</span>
+ <script src="designkode.js">
+</script>
+
+
+<br>
+<br>
+<br>
+
+
+<!-- Sign and date the page, it's only polite! -->
+<address>Laget 18.september.2013<br>
+av Fredrik
+  </address>
+
+  
+  
+ <ul> 
+  <form>
+<label for="proglangs"> Søk i programmeringsspråk: </label>
+<select name="select" id="proglangs" onChange="printToOutputBox(this)">
+  <option value="ActionScript">ActionScript</option>
+   <option value="Applescript">Applescript</option>
+    <option value="Asp">Asp</option>
+     <option value="BASIC">BASIC</option>
+      <option value="C">C</option>
+       <option value="C++">C++</option>
+	    <option value="Clojure">Clojure</option>
+	     <option value="COBOL">COBOL</option>
+	      <option value="ColdFusion">ColdFusion</option>
+	       <option value="Erlang">Erlang</option>
+		    <option value="Fortran">Fortran</option>
+		     <option value="Groovy">Groovy</option>
+		      <option value="Haskell">Haskell</option>
+		       <option value="Java">Java</option>
+			    <option value="JavaScript">JavaScript</option>
+			     <option value="Lisp">Lisp</option>
+			      <option value="Perl">Perl</option>
+			       <option value="PHP">PHP</option>
+				    <option value="Python">Python</option>
+				     <option value="Ruby">Ruby</option>
+			  	      <option value="Scala">Scala</option>
+		   		       <option value="Scheme">Scheme</option>
+</select>
+</form>
+
+ <br />
+
+
+</ul>
+  
+  
+  
+  
+</body>
+</html>
